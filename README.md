@@ -1,6 +1,6 @@
 # Priview
 
-![Simulator Screen Recording - iPhone 15 - 2024-10-19 at 17 50 47](https://github.com/user-attachments/assets/ef8b8175-4e3c-48b2-9394-b5a1586954fb)
+![Simulator Screen Recording - iPhone 15 - 2024-10-19 at 17 50 47-3](https://github.com/user-attachments/assets/eb4b866f-5bd6-4400-b634-53013e5865c8)
 
 # MiniProjectObjCMVVM
 
