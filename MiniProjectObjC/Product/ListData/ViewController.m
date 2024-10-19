@@ -77,13 +77,13 @@
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
     currentSearchText = searchText;
     
-//    CGPoint currentOffset = self.tableViewData.contentOffset;
+    CGPoint currentOffset = self.tableViewData.contentOffset;
 
     [self.dataListViewModel searchDataListsWithText:searchText];
     
     [self.tableViewData reloadData];
     
-//    [self.tableViewData setContentOffset:currentOffset animated:NO];
+    [self.tableViewData setContentOffset:currentOffset animated:NO];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

@@ -14,7 +14,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface DataListViewModel : NSObject
 @property (nonatomic, strong) NSArray<ModelList *> *dataList;
 @property (nonatomic, strong) NSArray<ModelList *> *filterDaraList;
-;
 
 - (void) fetchDataListWithCompletion: (void (^)(NSError* error)) completion;
 - (void) searchDataListsWithText:(NSString* ) searchText;
