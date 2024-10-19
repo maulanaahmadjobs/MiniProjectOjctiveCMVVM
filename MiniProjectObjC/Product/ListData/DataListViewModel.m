@@ -107,17 +107,20 @@
     }
 }
 
-- (void) showOfflineAlertInViewController:(UIViewController *)viewController {
+- (void) showOfflineAlertInViewController:(UIViewController *)viewController handler :(void (^)(UIAlertAction *action))handler  {
     UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"No Internet Connection"
                                                                    message:@"The Internet connection appears to be offline."
                                                             preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK"
                                                        style:UIAlertActionStyleDefault
-                                                     handler:nil];
+                                                     handler:handler];
+
     [alert addAction:okAction];
     
     [viewController presentViewController:alert animated:YES completion:nil];
 }
+
+
 
 @end

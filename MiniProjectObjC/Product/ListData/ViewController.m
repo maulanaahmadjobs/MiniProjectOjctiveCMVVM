@@ -37,7 +37,9 @@
             });
         } else {
             dispatch_async(dispatch_get_main_queue(), ^{
-                [self->_dataListViewModel showOfflineAlertInViewController:self];
+                [self->_dataListViewModel showOfflineAlertInViewController:self handler:^(UIAlertAction * _Nonnull action) {
+                    [self fetchData];
+                }];
             });
             NSLog(@"Error fetching posts: %@", error.localizedDescription);
         }

@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void) fetchDataListWithCompletion: (void (^)(NSError* error)) completion;
 - (void) searchDataListsWithText:(NSString* ) searchText;
-- (void) showOfflineAlertInViewController:(UIViewController *)viewController;
+- (void) showOfflineAlertInViewController:(UIViewController *)viewController handler :(void (^)(UIAlertAction *action))handler;
 @end
 
 NS_ASSUME_NONNULL_END

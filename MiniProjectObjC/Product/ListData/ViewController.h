@@ -10,6 +10,7 @@
 @interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate, UISearchBarDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableViewData;
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+- (void) fetchData;
 
 
 @end
