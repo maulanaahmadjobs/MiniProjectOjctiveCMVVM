@@ -13,6 +13,7 @@ MiniProjectObjC adalah sebuah proyek iOS yang menggunakan Objective-C dan menera
 - Mencari data dengan `UISearchBar`.
 - Menyimpan posisi scroll terakhir ketika berpindah ke halaman detail dan mengembalikan ke posisi tersebut saat kembali ke halaman `UITableView`.
 - Penerapan pola MVVM untuk pemisahan logika antara `ViewController` dan `ViewModel`.
+- Penerapan alert untuk menampilkan pemberitahuan ketika tidak ada koneksi atau jaringan. Setelah pengguna menekan tombol 'OK', aplikasi akan mencoba memuat ulang data secara otomatis saat koneksi jaringan kembali tersedia.
 
 ## Arsitektur
 
