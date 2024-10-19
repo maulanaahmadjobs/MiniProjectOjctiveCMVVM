@@ -27,7 +27,7 @@ Proyek ini menggunakan pola MVVM untuk pemisahan tanggung jawab:
 1. Clone repositori ini:
 
     ```bash
-    git clone https://github.com/username/MiniProjectObjC.git
+    git clone https://github.com/maulanaahmadjobs/MiniProjectOjctiveCMVVM.git
     ```
 
 2. Buka proyek menggunakan Xcode:
